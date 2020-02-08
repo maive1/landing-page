@@ -9,7 +9,11 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
+import Home from "./component/home.js";
+
+import "jquery";
+import "popper.js";
+import "bootstrap";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
